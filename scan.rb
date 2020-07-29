@@ -11,9 +11,9 @@ class MetasploitModule < Msf::Auxiliary
 
   def initialize
     super(
-      'Name'        => 'HTTP Version Detection',
-      'Description' => 'Display version information about each system.',
-      'Author'      => 'hdm',
+      'Name'        => 'port detection',
+      'Description' => 'Display  information about each system.',
+      'Author'      => 'Thomas',
       'License'     => MSF_LICENSE
     )
 
